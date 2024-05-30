@@ -1,6 +1,7 @@
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/empty.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/camera.xacro
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/depth_camera.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/lidar.xacro
