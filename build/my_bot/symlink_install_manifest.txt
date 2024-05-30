@@ -1,7 +1,10 @@
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/empty.yaml
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/worlds/empty.world
 /home/prabathbk/dev_ws3/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
