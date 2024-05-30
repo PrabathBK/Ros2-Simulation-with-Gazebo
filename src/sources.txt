@@ -22,5 +22,12 @@ rviz2
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 
-ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obstacles.world
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
 
+
+For run - only need
+cd dev_ws3
+source install/setup.bash
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
+rviz2
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
