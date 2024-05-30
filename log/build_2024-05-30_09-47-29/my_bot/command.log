@@ -1,0 +1,2 @@
+Invoking command in '/home/prabathbk/dev_ws3/build/my_bot': /usr/bin/cmake /home/prabathbk/dev_ws3/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/prabathbk/dev_ws3/install/my_bot
+Invoked command in '/home/prabathbk/dev_ws3/build/my_bot' returned '1': /usr/bin/cmake /home/prabathbk/dev_ws3/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/prabathbk/dev_ws3/install/my_bot
