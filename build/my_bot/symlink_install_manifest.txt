@@ -1,4 +1,5 @@
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/empty.yaml
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gazebo_params.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/my_controllers.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/camera.xacro
