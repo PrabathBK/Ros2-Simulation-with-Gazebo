@@ -47,5 +47,11 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 #### *******From the launch file we can run whole in same time
 ---------------------------------------------------------------------------------------------
 
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
+
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map_save.yaml -p use_sim_time:=true
+
+ros2 run nav2_amcl amcl --ros--args -p use_sim_time:=true
+
 
 

@@ -2,7 +2,11 @@
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gazebo_params.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/joystick.yaml
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/main.rviz
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/map.rviz
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/my_controllers.yaml
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/nav.rviz
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/camera.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/depth_camera.xacro
