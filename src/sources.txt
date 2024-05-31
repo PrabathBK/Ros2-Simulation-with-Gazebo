@@ -22,5 +22,14 @@ rviz2
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 
-ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obstacles.world
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
+
+
+--------------------------------
+ros2 run rosbridge_server rosbridge_websocket
+
+------------------------
+ros controller
+
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazeobo-ros2-control
 

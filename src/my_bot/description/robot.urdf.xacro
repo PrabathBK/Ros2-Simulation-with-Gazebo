@@ -2,7 +2,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 
     <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/robot_core.xacro" />
-    <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/gazebo_control.xacro" />
+    <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/ros2_control.xacro" />
+    <!-- <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/gazebo_control.xacro" /> -->
+
     <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/lidar.xacro" />
     <!-- <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/camera.xacro" /> -->
     <xacro:include filename="/home/prabathbk/dev_ws3/src/my_bot/description/depth_camera.xacro" />
