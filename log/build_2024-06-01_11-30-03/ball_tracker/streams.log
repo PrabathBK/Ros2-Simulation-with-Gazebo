@@ -1,0 +1,47 @@
+[0.478s] Invoking command in '/home/prabathbk/dev_ws3/build/ball_tracker': PYTHONPATH=/home/prabathbk/dev_ws3/build/ball_tracker/prefix_override:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/prabathbk/dev_ws3/build/ball_tracker/build --no-deps symlink_data
+[0.559s] /home/prabathbk/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.559s] !!
+[0.559s] 
+[0.559s]         ********************************************************************************
+[0.559s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.559s]         versions. Please use the underscore name 'script_dir' instead.
+[0.559s] 
+[0.559s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[0.559s]         or your builds will no longer be supported.
+[0.559s] 
+[0.559s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.559s]         ********************************************************************************
+[0.559s] 
+[0.559s] !!
+[0.559s]   opt = self.warn_dash_deprecation(opt, section)
+[0.664s] running develop
+[0.664s] /home/prabathbk/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.664s] !!
+[0.664s] 
+[0.664s]         ********************************************************************************
+[0.664s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.664s]         Instead, use pypa/build, pypa/installer or other
+[0.664s]         standards-based tools.
+[0.664s] 
+[0.664s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.664s]         ********************************************************************************
+[0.664s] 
+[0.664s] !!
+[0.665s]   easy_install.initialize_options(self)
+[0.784s] running egg_info
+[0.793s] writing ball_tracker.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[0.793s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[0.793s] writing requirements to ball_tracker.egg-info/requires.txt
+[0.793s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[0.810s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[0.820s] running build_ext
+[0.820s] Creating /home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[0.820s] Installing detect_ball script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker
+[0.820s] Installing detect_ball_3d script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker
+[0.820s] Installing follow_ball script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker
+[0.821s] 
+[0.821s] Installed /home/prabathbk/dev_ws3/build/ball_tracker
+[0.821s] running symlink_data
+[0.839s] Invoked command in '/home/prabathbk/dev_ws3/build/ball_tracker' returned '0': PYTHONPATH=/home/prabathbk/dev_ws3/build/ball_tracker/prefix_override:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/prabathbk/dev_ws3/build/ball_tracker/build --no-deps symlink_data

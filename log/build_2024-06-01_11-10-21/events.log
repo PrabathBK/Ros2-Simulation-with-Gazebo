@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (ball_tracker) JobQueued: {'identifier': 'ball_tracker', 'dependencies': OrderedDict()}
+[0.000147] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000157] (ball_tracker) JobStarted: {'identifier': 'ball_tracker'}
+[0.010116] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.099697] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.262087] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.283510] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.283623] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prabathbk/dev_ws3/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/home/prabathbk/dev_ws3/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prabathbk'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prabathbk'), ('OLDPWD', '/home/prabathbk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/prabathbk/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prabathbk/dev_ws3/install:/home/prabathbk/ros2_ws/src/install:/home/prabathbk/dev_ws/install:/home/prabathbk/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prabathbk'), ('_', '/home/prabathbk/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prabathbk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/prabathbk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prabathbk-GF63-Thin-11UC:@/tmp/.ICE-unix/1681,unix/prabathbk-GF63-Thin-11UC:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2de18f3_da45_4753_9b46_0ad3d83e76b7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DO3OO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws3/install/ball_tracker:/home/prabathbk/dev_ws/install/urdf_example:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prabathbk/dev_ws3/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prabathbk/dev_ws3/build/ball_tracker:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws/install/urdf_example:/home/prabathbk/dev_ws3/install/ball_tracker:/opt/ros/humble')]), 'shell': False}
+[0.326464] (-) TimerEvent: {}
+[0.426971] (-) TimerEvent: {}
+[0.527420] (-) TimerEvent: {}
+[0.627784] (-) TimerEvent: {}
+[0.728479] (-) TimerEvent: {}
+[0.829178] (-) TimerEvent: {}
+[0.929803] (-) TimerEvent: {}
+[1.030280] (-) TimerEvent: {}
+[1.130529] (-) TimerEvent: {}
+[1.230861] (-) TimerEvent: {}
+[1.331525] (-) TimerEvent: {}
+[1.379532] (my_bot) CommandEnded: {'returncode': 0}
+[1.409490] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[1.430590] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prabathbk/dev_ws3/build/my_bot'], 'cwd': '/home/prabathbk/dev_ws3/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prabathbk'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prabathbk'), ('OLDPWD', '/home/prabathbk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/prabathbk/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prabathbk/dev_ws3/install:/home/prabathbk/ros2_ws/src/install:/home/prabathbk/dev_ws/install:/home/prabathbk/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prabathbk'), ('_', '/home/prabathbk/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prabathbk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/prabathbk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prabathbk-GF63-Thin-11UC:@/tmp/.ICE-unix/1681,unix/prabathbk-GF63-Thin-11UC:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2de18f3_da45_4753_9b46_0ad3d83e76b7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DO3OO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws3/install/ball_tracker:/home/prabathbk/dev_ws/install/urdf_example:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prabathbk/dev_ws3/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prabathbk/dev_ws3/build/ball_tracker:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws/install/urdf_example:/home/prabathbk/dev_ws3/install/ball_tracker:/opt/ros/humble')]), 'shell': False}
+[1.431805] (-) TimerEvent: {}
+[1.439252] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.448002] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.450099] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[1.485655] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[1.486352] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[1.486993] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[1.487359] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/main.rviz\n'}
+[1.487815] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/map.rviz\n'}
+[1.508301] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[1.529939] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[1.530597] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/nav.rviz\n'}
+[1.531130] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[1.531363] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/object.rviz\n'}
+[1.531536] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[1.531713] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[1.531876] (-) TimerEvent: {}
+[1.532249] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[1.532761] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[1.582246] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[1.593089] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[1.593763] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[1.606001] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[1.606809] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[1.629587] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[1.630745] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[1.631974] (-) TimerEvent: {}
+[1.652514] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[1.663641] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[1.718697] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[1.732265] (-) TimerEvent: {}
+[1.773935] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[1.774685] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[1.775275] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[1.775640] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/worlds/obs.world\n'}
+[1.776084] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[1.792712] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[1.793846] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[1.794455] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[1.825882] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/environment/path.sh\n'}
+[1.826570] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[1.832450] (-) TimerEvent: {}
+[1.861968] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/local_setup.bash\n'}
+[1.870137] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/local_setup.sh\n'}
+[1.872319] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[1.872404] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[1.872440] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/package.dsv\n'}
+[1.881317] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[1.903374] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[1.932723] (-) TimerEvent: {}
+[1.952248] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[1.952964] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/package.xml\n'}
+[1.957233] (my_bot) CommandEnded: {'returncode': 0}
+[2.032979] (-) TimerEvent: {}
+[2.133540] (-) TimerEvent: {}
+[2.174120] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[2.233647] (-) TimerEvent: {}
+[2.333846] (-) TimerEvent: {}
+[2.434038] (-) TimerEvent: {}
+[2.534247] (-) TimerEvent: {}
+[2.634569] (-) TimerEvent: {}
+[2.735241] (-) TimerEvent: {}
+[2.835919] (-) TimerEvent: {}
+[2.936555] (-) TimerEvent: {}
+[3.037242] (-) TimerEvent: {}
+[3.137913] (-) TimerEvent: {}
+[3.238562] (-) TimerEvent: {}
+[3.339219] (-) TimerEvent: {}
+[3.439881] (-) TimerEvent: {}
+[3.540525] (-) TimerEvent: {}
+[3.641181] (-) TimerEvent: {}
+[3.741825] (-) TimerEvent: {}
+[3.842501] (-) TimerEvent: {}
+[3.943074] (-) TimerEvent: {}
+[4.043480] (-) TimerEvent: {}
+[4.144041] (-) TimerEvent: {}
+[4.244414] (-) TimerEvent: {}
+[4.345000] (-) TimerEvent: {}
+[4.445252] (-) TimerEvent: {}
+[4.545454] (-) TimerEvent: {}
+[4.645698] (-) TimerEvent: {}
+[4.746105] (-) TimerEvent: {}
+[4.846240] (-) TimerEvent: {}
+[4.946353] (-) TimerEvent: {}
+[5.046475] (-) TimerEvent: {}
+[5.146644] (-) TimerEvent: {}
+[5.246873] (-) TimerEvent: {}
+[5.347211] (-) TimerEvent: {}
+[5.447821] (-) TimerEvent: {}
+[5.548444] (-) TimerEvent: {}
+[5.568160] (ball_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/prabathbk/dev_ws3/build/ball_tracker/build', '--no-deps', 'symlink_data'], 'cwd': '/home/prabathbk/dev_ws3/build/ball_tracker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'prabathbk', 'LC_TIME': 'si_LK', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prabathbk', 'OLDPWD': '/home/prabathbk', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'si_LK', 'SYSTEMD_EXEC_PID': '1775', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/prabathbk/ros2_install', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/prabathbk/dev_ws3/install:/home/prabathbk/ros2_ws/src/install:/home/prabathbk/dev_ws/install:/home/prabathbk/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'prabathbk', '_': '/home/prabathbk/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prabathbk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/prabathbk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/prabathbk-GF63-Thin-11UC:@/tmp/.ICE-unix/1681,unix/prabathbk-GF63-Thin-11UC:/tmp/.ICE-unix/1681', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'si_LK', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f2de18f3_da45_4753_9b46_0ad3d83e76b7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'si_LK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DO3OO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws3/install/ball_tracker:/home/prabathbk/dev_ws/install/urdf_example:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'si_LK', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'si_LK', 'LC_IDENTIFICATION': 'si_LK', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prabathbk/dev_ws3/build/ball_tracker', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/prabathbk/dev_ws3/build/ball_tracker/prefix_override:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:/home/prabathbk/dev_ws3/build/ball_tracker:/home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'si_LK', 'LC_PAPER': 'si_LK', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/prabathbk/dev_ws3/install/my_bot:/home/prabathbk/dev_ws/install/urdf_example'}, 'shell': False}
+[5.648534] (-) TimerEvent: {}
+[5.654176] (ball_tracker) StderrLine: {'line': b'/home/prabathbk/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[5.654289] (ball_tracker) StderrLine: {'line': b'!!\n'}
+[5.654328] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.654359] (ball_tracker) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.654388] (ball_tracker) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[5.654418] (ball_tracker) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[5.654447] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.654483] (ball_tracker) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[5.654512] (ball_tracker) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[5.654540] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.654569] (ball_tracker) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[5.654597] (ball_tracker) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.654625] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.654652] (ball_tracker) StderrLine: {'line': b'!!\n'}
+[5.654680] (ball_tracker) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[5.748689] (-) TimerEvent: {}
+[5.759207] (ball_tracker) StdoutLine: {'line': b'running develop\n'}
+[5.776003] (ball_tracker) StderrLine: {'line': b'/home/prabathbk/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[5.776127] (ball_tracker) StderrLine: {'line': b'!!\n'}
+[5.776162] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.776193] (ball_tracker) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.776223] (ball_tracker) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[5.776252] (ball_tracker) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[5.776280] (ball_tracker) StderrLine: {'line': b'        standards-based tools.\n'}
+[5.776309] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.776337] (ball_tracker) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[5.776366] (ball_tracker) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.776394] (ball_tracker) StderrLine: {'line': b'\n'}
+[5.776422] (ball_tracker) StderrLine: {'line': b'!!\n'}
+[5.776451] (ball_tracker) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[5.848847] (-) TimerEvent: {}
+[5.907509] (ball_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[5.915695] (ball_tracker) StdoutLine: {'line': b'writing ball_tracker.egg-info/PKG-INFO\n'}
+[5.915907] (ball_tracker) StdoutLine: {'line': b'writing dependency_links to ball_tracker.egg-info/dependency_links.txt\n'}
+[5.916075] (ball_tracker) StdoutLine: {'line': b'writing entry points to ball_tracker.egg-info/entry_points.txt\n'}
+[5.916226] (ball_tracker) StdoutLine: {'line': b'writing requirements to ball_tracker.egg-info/requires.txt\n'}
+[5.916288] (ball_tracker) StdoutLine: {'line': b'writing top-level names to ball_tracker.egg-info/top_level.txt\n'}
+[5.933147] (ball_tracker) StdoutLine: {'line': b"reading manifest file 'ball_tracker.egg-info/SOURCES.txt'\n"}
+[5.945984] (ball_tracker) StdoutLine: {'line': b"writing manifest file 'ball_tracker.egg-info/SOURCES.txt'\n"}
+[5.948895] (-) TimerEvent: {}
+[5.955164] (ball_tracker) StdoutLine: {'line': b'running build_ext\n'}
+[5.972525] (ball_tracker) StdoutLine: {'line': b'Creating /home/prabathbk/dev_ws3/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)\n'}
+[5.973253] (ball_tracker) StdoutLine: {'line': b'Installing detect_ball script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker\n'}
+[5.973447] (ball_tracker) StdoutLine: {'line': b'Installing detect_ball_3d script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker\n'}
+[5.973687] (ball_tracker) StdoutLine: {'line': b'Installing follow_ball script to /home/prabathbk/dev_ws3/install/ball_tracker/lib/ball_tracker\n'}
+[5.973781] (ball_tracker) StdoutLine: {'line': b'\n'}
+[5.973833] (ball_tracker) StdoutLine: {'line': b'Installed /home/prabathbk/dev_ws3/build/ball_tracker\n'}
+[5.974011] (ball_tracker) StdoutLine: {'line': b'running symlink_data\n'}
+[6.029875] (ball_tracker) CommandEnded: {'returncode': 0}
+[6.033801] (ball_tracker) JobEnded: {'identifier': 'ball_tracker', 'rc': 0}
+[6.034201] (-) EventReactorShutdown: {}
