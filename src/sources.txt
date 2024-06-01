@@ -93,6 +93,9 @@ ros2 run ball_tracker follow_ball --ros-args --remap amd_vel:=cmd_vel_tracker
 ***ball tracker final**
 ros2 launch ball_tracker ball_tracker.launch.py params_file:=src/my_bot/config/ball_tracker_params_sim.yaml enable_3d_tracker:=true
 
+**ball tracker All in one**
+ros2 run ball_tracker follow_ball --ros-args --remap amd_vel:=cmd_vel_tracker
+
 
 
 
