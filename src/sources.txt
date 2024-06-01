@@ -54,4 +54,31 @@ ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map_save.yam
 ros2 run nav2_amcl amcl --ros--args -p use_sim_time:=true
 
 
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+
+#navigation with transient
+ros2 launch my_bot navigation_launch.py use_sim_time:=true map_subscribe_transient_local:=true
+
+------------------------------------final--------------------------------
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+colcon build --symlink-install
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
+
+ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+
+~/dev_ws3/src/my_bot/config$ rviz2 -d map.rviz
+
+
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
+
+
+
+#if needed
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+ros2 launch my_bot navigation_launch.py use_sim_time:=true map_subscribe_transient_local:=true
+
+
 

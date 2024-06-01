@@ -5,10 +5,12 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /RobotModel1
         - /Camera1/Visibility1
         - /Map1
         - /Image1
         - /Map2
+        - /Map2/Status1
       Splitter Ratio: 0.5
     Tree Height: 224
   - Class: rviz_common/Selection
@@ -79,22 +81,23 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          odom:
-            base_link:
-              base_footprint:
-                {}
-              chassis:
-                camera_link:
-                  camera_link_optical:
-                    {}
-                caster_wheel:
+          {}
+        odom:
+          base_link:
+            base_footprint:
+              {}
+            chassis:
+              camera_link:
+                camera_link_optical:
                   {}
-                laser_frame:
-                  {}
-              left_wheel:
+              caster_wheel:
                 {}
-              right_wheel:
+              laser_frame:
                 {}
+            left_wheel:
+              {}
+            right_wheel:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
