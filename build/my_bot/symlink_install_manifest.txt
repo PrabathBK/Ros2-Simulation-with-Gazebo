@@ -7,6 +7,7 @@
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/my_controllers.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/nav.rviz
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/twist_mux.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/view_bot.rviz
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/camera.xacro
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/description/depth_camera.xacro
