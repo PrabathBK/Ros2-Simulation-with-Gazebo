@@ -36,7 +36,7 @@ In this branch, the robot tracks a tennis ball using object detection.
     3. The robot will navigate to the goal while avoiding obstacles.
 
 - **Object Tracking**:
-    1. Switch to the `ObjectTracking` branch.
+    1. Switch to the `ObjectTrack` branch.
     2. Launch the object tracking node.
     3. The robot will track a tennis ball in the environment.
 
