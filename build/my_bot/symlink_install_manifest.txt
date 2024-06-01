@@ -1,4 +1,4 @@
-/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/ball_tracker_params_example.yaml
+/home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/ball_tracker_params_sim.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/empty.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
 /home/prabathbk/dev_ws3/install/my_bot/share/my_bot/config/gazebo_params.yaml

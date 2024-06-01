@@ -13,7 +13,7 @@ ball_tracker.egg-info/entry_points.txt
 ball_tracker.egg-info/requires.txt
 ball_tracker.egg-info/top_level.txt
 ball_tracker.egg-info/zip-safe
-config/ball_tracker_params_sim.yaml
+config/ball_tracker_params_example.yaml
 launch/ball_tracker.launch.py
 launch/example_launch_include.launch.py
 resource/ball_tracker
