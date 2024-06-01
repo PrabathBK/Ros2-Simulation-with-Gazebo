@@ -23,8 +23,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 
 ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
-<<<<<<< HEAD
-=======
 
 
 --------------------------------
@@ -82,6 +80,22 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 
 ros2 launch my_bot navigation_launch.py use_sim_time:=true map_subscribe_transient_local:=true
 
+--------------ball tracker----------------------------
+
+ros2 run ball_tracker detect_ball --ros-args --param tuning_model:=true --remap image_in:=camera/image_raw
+
+----if tunning doenst open
+ros2 run ball_tracker detect_ball --ros-args --params-file ./src/my_bot/config/param.yaml --remap image_in:=camera/image_raw
+
+ros2 run ball_tracker detect_ball_3d
+ros2 run ball_tracker follow_ball --ros-args --remap amd_vel:=cmd_vel_tracker
+
+***ball tracker final**
+ros2 launch ball_tracker ball_tracker.launch.py params_file:=src/my_bot/config/ball_tracker_params_sim.yaml enable_3d_tracker:=true
+
+**ball tracker All in one**
+ros2 run ball_tracker follow_ball --ros-args --remap amd_vel:=cmd_vel_tracker
+
 
 >>>>>>> remoteControl
 
@@ -92,3 +106,4 @@ source install/setup.bash
 ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obs.world
 rviz2
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
