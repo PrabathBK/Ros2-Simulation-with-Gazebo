@@ -8,6 +8,11 @@ This project features a robot model equipped with:
 - 📸 **Stereo Camera as a Depth Camera**
 
 Using these sensors, the robot can map a room and navigate from one location to another while avoiding obstacles with SLAM and Nav2.
+### Here is a video demonstrating the project:
+
+[![Demonstration Video](https://img.youtube.com/vi/jDFJ-MQADBQ/maxresdefault.jpg)](https://youtu.be/foo7gtkE8sE) </br>
+
+link:- https://www.youtube.com/watch?v=jDFJ-MQADBQ </br>
 
 ## Branches
 
