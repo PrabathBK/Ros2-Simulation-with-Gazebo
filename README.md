@@ -10,7 +10,7 @@ This project features a robot model equipped with:
 Using these sensors, the robot can map a room and navigate from one location to another while avoiding obstacles with SLAM and Nav2.
 ### Here is a video demonstrating the project:
 
-[![Demonstration Video](https://img.youtube.com/vi/jDFJ-MQADBQ/maxresdefault.jpg)](https://youtu.be/foo7gtkE8sE) </br>
+[![Demonstration Video](https://github.com/PrabathBK/Ros2-Simulation-with-Gazebo/blob/main/tumbnail2.png?raw=true)](https://youtu.be/foo7gtkE8sE) </br>
 
 link:- https://www.youtube.com/watch?v=jDFJ-MQADBQ </br>
 
