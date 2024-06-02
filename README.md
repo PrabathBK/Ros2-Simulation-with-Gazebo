@@ -40,7 +40,7 @@ link:- https://www.youtube.com/watch?v=foo7gtkE8sE </br>
 
 ## Simulation Videos
 
-🎥 Watch simulation videos in the [Simulator Video Repository](https://github.com/yourusername/simulator-video-repo).
+🎥 Watch simulation videos in the [Simulator Video Repository](https://github.com/PrabathBK/Ros2-Simulation-with-Gazebo/tree/main/simulation%20videos).
 
 ## License
 
